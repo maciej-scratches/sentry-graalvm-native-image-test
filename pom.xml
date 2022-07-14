@@ -9,10 +9,18 @@
 	<version>1.0-SNAPSHOT</version>
 
 	<properties>
-		<maven.compiler.source>17</maven.compiler.source>
-		<maven.compiler.target>17</maven.compiler.target>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
 		<native.maven.plugin.version>0.9.13</native.maven.plugin.version>
 	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>io.sentry</groupId>
+			<artifactId>sentry</artifactId>
+			<version>6.2.1</version>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<plugins>
